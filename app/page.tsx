@@ -48,7 +48,7 @@ export default function Home() {
             <CardTitle className="text-3xl mt-8 mx-8">Quote</CardTitle>
           </CardHeader>
           <CardContent className="mt-3 mx-8">
-            <h1 className="text-5xl px-2 fixed">&quot</h1>
+            <h1 className="text-5xl px-2 fixed">&quot;</h1>
             <div className="pl-4 py-8">
               <h1>{quote}</h1>
               <h1 className="text-end text-lg p-6">- {author}</h1>
