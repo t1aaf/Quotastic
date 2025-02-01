@@ -21,17 +21,11 @@ export default async function FloatingNavbar() {
               alt="Quotastic"
               width={150}
               height={40}
-              className="hidden md:block h-8 w-auto"
+              className="h-8 w-auto"
             />
             <h1 className="pl-3">Quotastic</h1>
           </Link>
           <Separator orientation="vertical" className="h-6 bg-black/30" />
-          <Link
-            href="/about"
-            className="hover:bg-white/40 px-2 py-2 rounded-sm"
-          >
-            About
-          </Link>
           <Separator orientation="vertical" className="h-6 bg-black/30" />
           <div className="flex justify-center space-x-2 py-2">
             {socialItems.map((item) => (
